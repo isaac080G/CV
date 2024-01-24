@@ -1,0 +1,237 @@
+:root{
+    --primary: #ecf4ff;
+    --secondary: #ffffff;
+    --darkerPrimary: #c9d6e8;
+    --principalWords: #5b708b;
+    --secondWords:#000000;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    
+}
+body{
+    background-color:var(--secondary);
+    font-size: 2rem;
+    line-height: 1.50;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 3fr ;
+    grid-template-rows: 1fr;
+    background-color:  var(--darkerPrimary);  
+    width: auto;
+    height: 38rem;
+    position: relative;
+    z-index:2;
+
+}
+.my_name{
+    text-align: left;
+    align-self: end;
+    font-size: 6rem;
+    justify-content: center;
+    grid-column: 2;
+    margin-bottom: 10rem;
+    margin-left: 18rem;
+}
+.title{
+    text-align:end;
+    color: var(--secondWords);
+    font-size: 4rem;
+    
+}
+.picture{
+    grid-row: 1;
+    align-self:end;
+    margin-left: 4rem;
+}
+
+p{
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--secondWords);
+    text-align: center;
+    text-justify:distribute;
+}
+h1,h2{
+    text-align: left;
+    color:var(--principalWords);
+    margin-left: 4rem;
+}
+h3{
+    text-align:left;
+    margin-left: 6rem;
+}
+h4{
+    text-align: left;
+    font-size: 1.8;
+    margin-left: 6rem;
+}
+
+.right{
+    grid-column: 2;
+    color:var(--secondWords);
+}
+.hobbies{
+    display: grid;
+    grid-template-columns: repeat(4fr);
+    grid-template-rows: 1fr;
+    
+    height: 10rem;
+    margin-right: 3rem;
+    
+
+}
+.hobbie{
+    width: 5rem;
+    grid-row: 2;
+    grid-column: auto;
+    text-align: center;
+    align-content: center;
+    margin-left: 6rem;
+}
+.hobbie p{
+    font-size: small;
+}
+.left{
+    background-color: var(--primary);
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    grid-template-rows: 40rem 1fr 25rem 22rem;
+    
+}
+.contact{
+    margin-top: 7rem;
+    display: grid;
+    height: 10rem;
+}
+.paragraph{
+    text-align: center;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+/*progresos*/
+.skills{
+    display: grid;
+    text-align: center;
+    height: auto;
+    margin-top: 10rem;
+}
+.skill{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 5px;
+}
+.progress_bar {
+    width: 100%; 
+    height: 10px; 
+    border: 1px solid #ccc; 
+    position: relative; 
+    
+}
+.progress1 {
+    height: 100%;
+    width: 70%; 
+    background-color: #3498db; 
+}
+.progress2 {
+    height: 100%;
+    width: 70%; 
+    background-color: #3498db; 
+}
+.progress3 {
+    height: 100%;
+    width: 70%; 
+    background-color: #3498db; 
+}
+.progress4 {
+    height: 100%;
+    width: 70%; 
+    background-color: #3498db; 
+}
+
+.progress5 {
+    height: 100%;
+    width: 100%; 
+    background-color: #3498db; 
+}
+.progress5 {
+    height: 100%;
+    width: 100%; 
+    background-color: #3498db; 
+}
+.progress6 {
+    height: 100%;
+    width: 40%; 
+    background-color: #3498db; 
+}
+
+/*lenguajes*/
+.idioms{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.progress_idiom {
+    height: 100%;
+    width: 90%; 
+    background-color: #3498db; 
+}
+.progress_idiom2 {
+    height: 100%;
+    width: 65%; 
+    background-color: #3498db; 
+}
+
+/*iconos*/
+.tel,.mail,.web,.linkedin{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 100%;
+    height: 10%;
+    
+}
+.icon{
+    width:20%;
+    margin-left: 5rem;
+}
+.tel_information,.mail_information,.web_information,.linkedin_information{
+    grid-column: 2;
+}
+
+.school h3{
+    text-align: left;
+    height: 2rem;
+}
+.school p{
+    margin-top: 3rem;
+}
+
+
+.experience h4{
+    margin-top: 1rem;
+    height: 2rem;
+    text-align: left;
+}
+.experience p{
+    text-align: left;
+    height: 2rem;
+}
+.school p{
+    text-align: left;
+    margin-left: 10rem;
+}
+.personal_references{
+    display: grid;
+    height: 25rem;
+}
+.person{
+    grid-row: 2;
+}
